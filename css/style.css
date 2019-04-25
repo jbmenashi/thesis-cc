@@ -1,0 +1,48 @@
+body {
+   margin: 0;
+   height: 2000px;
+}
+
+#main {
+   width: 100%;
+   height: 83%;
+}
+
+#shape-1 {
+   position: absolute;
+   width: 100%;
+   height: 1660px;
+   clip-path: polygon(65% 0%, 0 0, 0 9.5%);
+   background-color: #752DD0;
+}
+
+#shape-2 {
+   position: absolute;
+   width: 100%;
+   height: 1660px;
+   clip-path: polygon(65% 0, 100% 0, 100% 15%, 30% 29%, 0 35%, 0 9.5%);
+   background-color: #7652E3;
+}
+
+#shape-3 {
+   position: absolute;
+   width: 100%;
+   height: 1660px;
+   clip-path: polygon(0 35%, 100% 15%, 100% 25%, 0 45%);
+   background-color: #736FDF;
+}
+
+#shape-4 {
+   position: absolute;
+   width: 100%;
+   height: 1660px;
+   clip-path: polygon(0 90.5%, 100% 75%, 100% 100%, 0% 100%);
+   background-color: #F6F9FC;
+}
+
+#footer {
+   width: 100%;
+   height: 17%;
+   background-color: #736FDF;
+}
+
