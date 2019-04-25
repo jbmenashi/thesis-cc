@@ -40,7 +40,7 @@ body {
    z-index: -1;
    width: 100%;
    height: 1660px;
-   clip-path: polygon(0 90.5%, 100% 75%, 100% 100%, 0% 100%);
+   clip-path: polygon(0 87%, 100% 70%, 100% 100%, 0% 100%);
    background-color: #F6F9FC;
 }
 
@@ -109,7 +109,7 @@ body {
 
 #middle-text {
    margin-top: 5vw;
-   font-size: 1.2vw;
+   font-size: 20px;
    text-align: center;
    color: white;
 }
@@ -122,6 +122,21 @@ body {
    font-size: 2vw;
    padding: 1vw 1.5vw;
    margin-top: 1vw;
+}
+
+#info {
+   text-align: center;
+   font-size: 25px;
+   margin-top: 6vw;
+}
+
+#create {
+   border-radius: 10px;
+   border: none;
+   font-family: 'Quicksand', sans-serif;
+   color: white;
+   background-color: #736FDF;
+   padding: 0.5vw 1vw;
 }
 
 #footer {
