@@ -1,6 +1,8 @@
 body {
    margin: 0;
    height: 2000px;
+   width: 1520px;
+   min-width: 100%;
    font-family: 'Quicksand', sans-serif;
 }
 
@@ -10,12 +12,13 @@ button:hover {
 
 #main {
    height: 83%;
+   width: 100%;
 }
 
 #shape-1 {
    position: absolute;
    z-index: -1;
-   width: 100%;
+   width: 1520px;
    height: 1660px;
    clip-path: polygon(65% 0%, 0 0, 0 9.5%);
    background-color: #752DD0;
@@ -24,7 +27,7 @@ button:hover {
 #shape-2 {
    position: absolute;
    z-index: -1;
-   width: 100%;
+   width: 1520px;
    height: 1660px;
    clip-path: polygon(65% 0, 100% 0, 100% 15%, 30% 29%, 0 35%, 0 9.5%);
    background-color: #7652E3;
@@ -33,7 +36,7 @@ button:hover {
 #shape-3 {
    position: absolute;
    z-index: -1;
-   width: 100%;
+   width: 1520px;
    height: 1660px;
    clip-path: polygon(0 35%, 100% 15%, 100% 25%, 0 45%);
    background-color: #736FDF;
@@ -42,7 +45,7 @@ button:hover {
 #shape-4 {
    position: absolute;
    z-index: -1;
-   width: 100%;
+   width: 1520px;
    height: 1660px;
    clip-path: polygon(0 87%, 100% 70%, 100% 100%, 0% 100%);
    background-color: #F6F9FC;
@@ -213,7 +216,7 @@ button:hover {
 }
 
 #footer {
-   width: 100%;
+   width: 1520px;
    height: 17%;
    background-color: #736FDF;
 }
