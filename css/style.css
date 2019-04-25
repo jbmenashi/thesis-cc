@@ -4,6 +4,10 @@ body {
    font-family: 'Quicksand', sans-serif;
 }
 
+button:hover {
+   cursor: pointer;
+}
+
 #main {
    height: 83%;
 }
@@ -137,6 +141,50 @@ body {
    color: white;
    background-color: #736FDF;
    padding: 0.5vw 1vw;
+}
+
+#services-title {
+   margin-top: 6vw;
+}
+
+#services-title:after {
+   content: "";
+   display: block;
+   margin: 0 auto;
+   width: 5%;
+   padding-top: 5px;
+   border-bottom: 2px solid black;
+}
+
+.container {
+   margin: 20px auto;
+   width: 1000px;
+   height: 300px;
+   background-color: #fff;
+   display: grid;
+   grid-template-columns: 500px 500px;
+   grid-row: auto auto;
+   grid-column-gap: 20px;
+   grid-row-gap: 20px;
+}
+
+.box {
+   background-color: #FCFCFD;
+   padding: 20px 20px;
+   border: 1px solid gray;
+   border-radius: 10px;
+   display: flex;
+   align-items: center;
+   font-family: 'Quicksand', sans-serif;
+}
+
+.grid-image {
+   float: left;
+   margin-right: 10px;
+}
+
+.box p {
+   font-size: 15px;
 }
 
 #footer {
